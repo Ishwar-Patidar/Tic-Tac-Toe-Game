@@ -1,0 +1,83 @@
+.gamecontainer {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.gcontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+    position: relative;
+
+
+}
+
+.Umbox {
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.mfbox {
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.mebox {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.lmbox {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.box {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxtext {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.line {
+    height: 10px;
+    width: 0;
+    background-color: red;
+    position: absolute;
+    transition: width 1s ease-in-out;
+
+}
+
+
+#reset {
+    color: white;
+    background-color: rgb(14, 14, 98);
+    border: 1px solid grey;
+    border-radius: 10%;
+}
+
+img {
+    height: 40px;
+    width: 0;
+    transition: width 1s;
+
+}
+
+.gameName {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: red;
+    text-shadow: 1px 2px 3px rgb(72, 75, 237);
+}
